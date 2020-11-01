@@ -26,6 +26,20 @@
     #page-search-results .cards img {
         height: 200px;
     }
+
+    #page-create-point .field-group {
+        flex-direction: column;
+    }
+
+    #page-create-point .field + .field {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 760px) {
+    #page-create-point fieldset .items-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 @media (min-width: 1700px) {
